@@ -10,7 +10,33 @@
 </head>
 
 <body>
-    <section class="container">
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                    <a class="navbar-brand" href="#">TopCasaFina Arquitetura</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="collapse-navbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#sobre-nos">Sobre Nós</a></li>
+                        <li><a href="#nossos-projetos">Nossos Projetos</a></li>
+                        <li><a href="#depoimentos">depoimentos</a></li>
+                        <li><a href="#video">Vídeo</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="sobre-nos" class="container">
         <h2>Sobre Nós</h2>
         <img class="img-responsive" src="img/empresa.jpg" alt="Imagem da empresa">
 
@@ -60,7 +86,7 @@
         </div>
     </div>
 
-    <section class="container">
+    <section id="nossos-projetos" class="container">
         <h2>Nossos Projetos</h2>
 
         <figure class="thumbnail">
@@ -105,7 +131,7 @@
 
     </section>
 
-    <section>
+    <section id="depoimentos">
         <div class="titulo-depoimentos">
             <h2 class="container">Depoimento de Clientes</h2>
         </div>
@@ -157,14 +183,14 @@
 
     </section>
 
-    <section class="container">
+    <section id="video" class="container">
         <h2>Video institucional</h2>
         <div class="embed-responsive embed-responsive-16by9">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/i_3Pv1AygeI" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
         </div>
     </section>
 
-    <section class="container">
+    <section id="contato" class="container">
         <h2>Contato</h2>
         <p>Entre em contato conosco</p>
 
@@ -185,22 +211,22 @@
             <div class="grupo-radio">
                 <div class="radio">
                     <label>
-                    <input type="radio" name="tipo-pessoa" checked>Pessoa Física
-                </label>
+                                <input type="radio" name="tipo-pessoa" checked>Pessoa Física
+                            </label>
                 </div>
                 <div class="radio">
                     <label>
-                    <input type="radio" name="tipo-pessoa">Pessoa Jurídica
-                </label>
+                                <input type="radio" name="tipo-pessoa">Pessoa Jurídica
+                            </label>
                 </div>
             </div>
             <!--
-            --><select class="contato-select form-control">
-                <option disabled selected>Tipo de situação</option>
-                <option>Casa</option>
-                <option>Apartamento</option>
-                <option>Mansão</option>
-            </select>
+                    --><select class="contato-select form-control">
+                        <option disabled selected>Tipo de situação</option>
+                        <option>Casa</option>
+                        <option>Apartamento</option>
+                        <option>Mansão</option>
+                    </select>
 
             <button class="botao-enviar btn btn-primary" type="submit">Enviar</button>
 
@@ -210,15 +236,15 @@
 
     <footer>
         <address>
-        <strong>TopCasaFina Arquitetura</strong><br>
-        Rua Vergueiro, 3185, Vila Mariana<br>
-        São Paulo, SP
-        </address>
+                    <strong>TopCasaFina Arquitetura</strong><br>
+                    Rua Vergueiro, 3185, Vila Mariana<br>
+                    São Paulo, SP
+                </address>
 
         <address>
-                Tel: (11) 5571-2751 ou 5083-3884<br>
-            <a href="mailto:#">E-mail: contato.topcasafina@alura.com.br</a>
-        </address>
+                    Tel: (11) 5571-2751 ou 5083-3884<br>
+                    <a href="mailto:#">E-mail: contato.topcasafina@alura.com.br</a>
+                </address>
     </footer>
 
     <script src="js/jquery.js"></script>
